@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: url(imagenes/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    background: #312b27;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #362d27;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 0 100px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ff9000;
+    color: #fff;
+    text-decoration: none;
+    background: #ff9000;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background: #362d27;
+    color: #fff;
+}
+
+.saucers {
+    padding-bottom: 30px;
+    background: #2a2420;
+    color: #fff;
+}
+
+.price {
+    background: url(imagenes/gruasarticuladas01.jpg.crdownload) no-repeat center;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+}
+
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.contact {
+    padding-top: 30px;
+    background: #362d27;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+
+.list-saucers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-saucers figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    width: 90px;
+    height: 90px;
+}
+
+.list-saucers figure::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: #ff9000;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.list-saucers img {
+    position: relative;
+    z-index: 1;
+}
+
+.list-saucers li {
+    padding: 0 30px;
+}
+
+.list-saucers figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
+
+#contact .map img {
+    width: 382px;
+    text-align: right;		
+}
+.map{
+    margin-top: 5%;
+    margin-left: 2%;
+    align-items: center;
+    padding: 40px;
+    display: inline-flex;
+}
+body textarea {
+    position: relative;
+    margin-top: -200px;
+    margin-left: -109px;
+    padding-bottom: 93px;
+    padding-right: 107px;
+    bottom: 276px;
+    left: 56px;
+    min-width: 10px;
+    min-height: 10px;
+}
+.seccion{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.img{
+    width: 300px;
+    height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 200px;
+    object-fit: cover;
+    margin-right: 70px;
+}
