@@ -1,0 +1,291 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+.header-web{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-web img{
+    height: 50px;
+    margin: 0 30px;
+}
+
+.header-web h1{
+    margin: auto 0;
+}
+
+.iconos-redes{
+    text-align: right;
+    flex-grow: 1;
+}
+
+.iconos-redes i{
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+
+nav ul{
+    margin: 20px 0 0 0;
+    
+}
+
+.navbar-nav li{
+    padding: 10px 20px;
+}
+
+.navbar-nav li a{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.navbar-nav li a:hover{
+    color:  rgb(42, 61, 165);
+}
+
+.seccion-ultima-hora{
+    padding: 0 30px 0 60px;
+    display: flex;
+    height: 30px;
+}
+
+#btext{
+    width: 200px;
+    font-size: 16p;
+    text-transform: uppercase;
+    color:  rgb(42, 61, 165);
+    font-weight: 600px;
+    margin: auto 0;
+}
+
+.ultima-hora{
+    padding: 0 30px;
+    color: white;
+    font-weight: 800;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.ultima-hora:hover, .iconos-redes i:hover{
+    color: rgb(42, 61, 165);
+    cursor: pointer;
+}
+
+.btime{
+    display: inline-block;
+    color: rgba(255,255,255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+#noticias-populares{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 5%;
+}
+
+
+
+#noticias-populares img{
+    width: 100%;
+    filter: brightness(0.7);
+}
+
+#noticias-populares h2{
+    margin: 0;
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+#destacados h2{
+    background-color: black;
+}
+
+#ultimas h2{
+    background-color:  rgb(42, 61, 165);
+}
+
+#seleccion h2{
+    background-color:  brown;
+}
+
+.slide, .contenedor-noticias{
+    position: relative;
+}
+
+.texto-noticia{
+    position: absolute;
+    color: white;
+    z-index: 20;
+    bottom: 5px;
+    font-size: 20   px;
+    font-weight: bold;
+    padding: 0 10px;
+    transition-duration: 500ms;
+}
+
+#destacados{
+    flex: 2;
+}
+
+#ultimas, #seleccion{
+    flex: 1;
+}
+
+.contenedor-noticias:hover{
+    cursor: pointer;
+}
+
+.contenedor-noticias:hover > .texto-noticia{
+    bottom: 10px;
+}
+
+.mas-noticias{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    padding-top: 20px;
+}
+
+.mas-noticias img{
+    width: 100%;
+}
+
+.seccion-noticias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    justify-content: space-around;
+}
+
+.seccion-noticias img{
+    height: 300px;
+    width: 450px;
+}
+
+aside{
+    flex-basis: 25%;
+    padding: 10px;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.noticia1, .noticia2{
+    flex-basis: 45%;
+}
+
+.noticias-recientes{
+    display: flex;
+}
+
+.noticias-recientes img{
+    width: 70px;
+    height: 70%;
+    margin: 10px;
+}
+
+.noticias-recientes p{
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.info{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info section{
+    flex-basis: 45%;
+}
+
+.iconos-pie{
+    font-size: 40px;
+    padding: 5px;
+}
+
+.suscripcion button{
+    display: block;
+    border: 1px solid rgb(42, 61, 165);
+    color: rgb(42, 61, 165);
+    font-size: 14px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.suscripcion button:hover{
+    color: white;
+    background-color: rgb(42, 61, 165);
+}
+
+.copy{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .header-web img{
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+    }
+
+    .header-web h1{
+        font-size: 15px;
+    }
+
+    .seccion-ultima-hora{
+        padding: 10px;
+        flex-wrap: wrap;
+        height: 70px;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url(imagenes/menu.png);
+    }
+
+    .navbar-collapse{
+        background-color: black;
+        z-index: 50;
+    }
+
+    #destacadas{
+        flex: auto  ;
+    }
+
+    .seccion-noticias, aside, .noticia1, .noticia2, .info section{
+        flex-basis: 100%;
+    }
+
+    aside{
+
+    }
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d8114ff3a8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>NDH</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-web">
+            <img src="imagenes/logo.png" alt="">
+            <h1>NOTICIAS DE HOY</h1>
+            <div class="iconos-redes">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Política</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Internacional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Negocios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Viajes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tecnología</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Redes sociales</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+
+
+        <div class="seccion-ultima-hora">
+            <span id="btext">Última hora</span>
+            <marquee direction="left">
+                <a href="#" class="ultima-hora">
+                    <p class="btime">24 oct 2022</p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </a>
+                <a href="#" class="ultima-hora">
+                    <p class="btime">24 oct 2022</p>
+                    Illo eligendi consequatur quis voluptatibus nobis nemo necessitatibus aperiam libero! Ipsa,
+                    aspernatur ea. Qui, adipisci?
+                </a>
+                <a href="#" class="ultima-hora">
+                    <p class="btime">25 oct 2022</p>
+                    Eligendi voluptatibus tempore, officia omnis mollitia impedit placeat.
+                </a>
+            </marquee>
+        </div>
+    </header>
+
+    <main>
+        <article id="noticias-populares">
+            <div id="destacados">
+                <h2>DESTACADOS</h2>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/carrusel1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/carrusel2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/carrusel3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div id="ultimas">
+                <h2>LO MÁS RECIENTE</h2>
+                <section class="noticias">
+                    <div class="contenedor-noticias">
+                        <img src="imagenes/ultimo1.jfif" alt="">
+                        <p class="texto-noticia">
+                            Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+                </section>
+                <section class="noticias">
+                    <div class="contenedor-noticias">
+                        <img src="imagenes/ultimo2.jpeg" alt="">
+                        <p class="texto-noticia">
+                            Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <div id="seleccion">
+                <h2>RECOMENDACIONES</h2>
+                <section class="noticias">
+                    <div class="contenedor-noticias">
+                        <img src="imagenes/recomen1.jpg" alt="">
+                        <p class="texto-noticia">
+                            Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+                </section>
+                <section class="noticias">
+                    <div class="contenedor-noticias">
+                        <img src="imagenes/recomen2.jpg" alt="">
+                        <p class="texto-noticia">
+                            Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <section class="mas-noticias">
+            <div class="seccion-noticias">
+                <article class="noticia1">
+                    <img src="imagenes/tec.jpg" alt="">
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                    <p>Numquam reiciendis quaerat aspernatur distinctio dolorum, animi dolore labore sequi corporis nisi
+                        velit odio quas inventore sapiente veniam delectus ratione molestiae hic.</p>
+                </article>
+                <article class="noticia2">
+                    <img src="imagenes/medict.jpg" alt="">
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                    <p>Numquam reiciendis quaerat aspernatur distinctio dolorum, animi dolore labore sequi corporis nisi
+                        velit odio quas inventore sapiente veniam delectus ratione molestiae hic.</p>
+                </article>
+            </div>
+            <aside>
+                <h4>Tal vez te interese</h4>
+                <div class="noticias-recientes">
+                    <img src="imagenes/extra.jpg" alt="">
+                    <p>Explicabo ducimus voluptatem temporibus vitae assumenda beatae quod nisi odio velit unde.</p>
+                </div>
+                <div class="noticias-recientes">
+                    <img src="imagenes/extra.jpg" alt="">
+                    <p>Explicabo ducimus voluptatem temporibus vitae assumenda beatae quod nisi odio velit unde.</p>
+                </div>
+                <div class="noticias-recientes">
+                    <img src="imagenes/extra.jpg" alt="">
+                    <p>Explicabo ducimus voluptatem temporibus vitae assumenda beatae quod nisi odio velit unde.</p>
+                </div>
+                <div class="noticias-recientes">
+                    <img src="imagenes/extra.jpg" alt="">
+                    <p>Explicabo ducimus voluptatem temporibus vitae assumenda beatae quod nisi odio velit unde.</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <div class="info">
+            <section class="acerca">
+                <h2>Acerca de</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in iste officiis error enim
+                    voluptas incidunt labore qui expedita, explicabo neque tempora architecto, ullam obcaecati quidem ab
+                    rem sapiente eos!</p>
+                <div class="iconos-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </section>
+            <section class="suscripcion">
+                <h2>Suscríbete a Noticias de Hoy</h2>
+                <p>Suscríbase a la información de calidad <br>
+
+                    Solo a través de los hechos podemos entender la realidad. NOTICIAS DE HOY trabaja con un gran equipo
+                    de profesionales por todo el mundo para llegar hasta el origen de la noticia y acercarla a quienes
+                    nos apoyan cada día: nuestros lectores.</p>
+                <input type="email" placeholder="Correo electrónico">
+                <button type="button" class="suscripcion">Suscribirse</button>
+            </section>
+        </div>
+        <div class="copy">Copyright ©2022 Noticias de Hoy.</div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
